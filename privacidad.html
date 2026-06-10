@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Política de Privacidad · MeLaJuego</title>
+  <meta name="description" content="Política de Privacidad de la aplicación MeLaJuego." />
+  <style>
+    :root {
+      --amarillo: #FFE135;
+      --negro: #1a1a1a;
+      --rosa: #FF6B9D;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: var(--amarillo);
+      color: var(--negro);
+      line-height: 1.6;
+      padding: 24px 16px 64px;
+    }
+    .card {
+      max-width: 760px;
+      margin: 0 auto;
+      background: #fff;
+      border: 4px solid var(--negro);
+      border-radius: 18px;
+      box-shadow: 8px 8px 0 var(--negro);
+      padding: 32px 28px;
+    }
+    h1 {
+      font-size: 1.9rem;
+      margin: 0 0 4px;
+      line-height: 1.2;
+    }
+    .updated {
+      font-size: 0.9rem;
+      opacity: 0.65;
+      margin: 0 0 24px;
+    }
+    h2 {
+      font-size: 1.2rem;
+      margin: 28px 0 8px;
+      border-bottom: 3px solid var(--amarillo);
+      padding-bottom: 4px;
+    }
+    a { color: #0b5ed7; }
+    ul { padding-left: 22px; }
+    li { margin-bottom: 6px; }
+    .back {
+      display: inline-block;
+      margin-bottom: 20px;
+      font-weight: 700;
+      text-decoration: none;
+      color: var(--negro);
+    }
+    .contact {
+      margin-top: 28px;
+      padding: 16px;
+      background: var(--amarillo);
+      border: 3px solid var(--negro);
+      border-radius: 12px;
+    }
+    footer {
+      max-width: 760px;
+      margin: 24px auto 0;
+      text-align: center;
+      font-size: 0.85rem;
+      opacity: 0.7;
+    }
+    code { background: #f0f0f0; padding: 1px 5px; border-radius: 4px; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <a class="back" href="index.html">← MeLaJuego</a>
+    <h1>Política de Privacidad</h1>
+    <p class="updated">Última actualización: 10 de junio de 2026</p>
+
+    <p>
+      Esta Política de Privacidad describe cómo se tratan los datos en la aplicación
+      <strong>MeLaJuego</strong> (en adelante, «la App»), un juego de preguntas y respuestas.
+      Nos tomamos tu privacidad en serio: la App está diseñada para funcionar
+      <strong>sin necesidad de registro ni cuenta de usuario</strong> y sin recopilar datos personales identificables.
+    </p>
+
+    <h2>1. Responsable del tratamiento</h2>
+    <p>
+      El responsable de la App es el desarrollador de MeLaJuego. Para cualquier cuestión relacionada con la
+      privacidad puedes contactar en:
+      <a href="mailto:pascualibarra47@gmail.com">pascualibarra47@gmail.com</a>.
+    </p>
+
+    <h2>2. Qué datos NO recopilamos</h2>
+    <p>La App <strong>no</strong> te pide ni recopila directamente:</p>
+    <ul>
+      <li>Nombre, dirección de correo, teléfono ni cuentas de usuario.</li>
+      <li>Ubicación geográfica.</li>
+      <li>Contactos, fotos o archivos de tu dispositivo.</li>
+      <li>Grabaciones de audio: la App solo <em>reproduce</em> sonidos y música; no graba ni accede al micrófono.</li>
+    </ul>
+    <p>
+      El progreso y las preferencias del juego se guardan únicamente en tu dispositivo y no se envían a ningún servidor.
+    </p>
+
+    <h2>3. Datos que sí se procesan</h2>
+    <ul>
+      <li>
+        <strong>Descarga de preguntas:</strong> la App descarga el contenido del juego (preguntas)
+        desde nuestro servidor de contenidos (Supabase). Es una conexión de solo lectura; no se envían
+        datos personales tuyos. Como en cualquier conexión a internet, el proveedor de alojamiento puede
+        procesar datos técnicos básicos (como la dirección IP) con el único fin de entregar el contenido.
+      </li>
+      <li>
+        <strong>Compras dentro de la App:</strong> si realizas una compra, esta se gestiona a través de
+        Apple App Store o Google Play y de nuestro proveedor de gestión de compras
+        <strong>RevenueCat</strong>. Para asociar tu compra a tu dispositivo y restaurarla cuando sea
+        necesario, RevenueCat procesa un identificador pseudónimo del dispositivo, el historial de compras
+        y datos técnicos del dispositivo (sistema operativo, país de la tienda). No accedemos a tus datos
+        de pago: estos los gestiona directamente Apple o Google.
+      </li>
+      <li>
+        <strong>Actualizaciones de la App:</strong> la App utiliza el servicio de actualizaciones de Expo
+        para descargar mejoras de software. Este proceso puede implicar el tratamiento de datos técnicos
+        básicos por parte del proveedor.
+      </li>
+    </ul>
+
+    <h2>4. Publicidad</h2>
+    <p>
+      La App <strong>no muestra anuncios</strong> ni utiliza identificadores publicitarios para
+      seguimiento. Si esto cambiara en el futuro, actualizaríamos esta política y solicitaríamos tu
+      consentimiento cuando la ley lo requiera.
+    </p>
+
+    <h2>5. Servicios de terceros</h2>
+    <p>Los siguientes proveedores pueden tratar datos técnicos para prestar sus servicios:</p>
+    <ul>
+      <li><strong>Apple App Store</strong> / <strong>Google Play</strong> — procesamiento de pagos y distribución de la App.</li>
+      <li><strong>RevenueCat</strong> — gestión de compras. <a href="https://www.revenuecat.com/privacy/" target="_blank" rel="noopener">Política de privacidad</a>.</li>
+      <li><strong>Supabase</strong> — alojamiento del contenido del juego. <a href="https://supabase.com/privacy" target="_blank" rel="noopener">Política de privacidad</a>.</li>
+      <li><strong>Expo</strong> — entrega de actualizaciones de software. <a href="https://expo.dev/privacy" target="_blank" rel="noopener">Política de privacidad</a>.</li>
+    </ul>
+
+    <h2>6. Menores</h2>
+    <p>
+      La App es apta para todos los públicos y no está dirigida específicamente a menores de edad.
+      No recopilamos de forma consciente datos personales de menores.
+    </p>
+
+    <h2>7. Tus derechos</h2>
+    <p>
+      Conforme al Reglamento General de Protección de Datos (RGPD) y a la normativa española aplicable,
+      tienes derecho a acceder, rectificar, suprimir y oponerte al tratamiento de tus datos, así como a la
+      portabilidad y a la limitación del tratamiento. Dado que la App no recopila datos personales
+      identificables directamente, en la mayoría de los casos no dispondremos de información que te
+      identifique. Para ejercer cualquier derecho, o para solicitudes relacionadas con tus compras, escríbenos a
+      <a href="mailto:pascualibarra47@gmail.com">pascualibarra47@gmail.com</a>.
+    </p>
+
+    <h2>8. Cambios en esta política</h2>
+    <p>
+      Podemos actualizar esta Política de Privacidad para reflejar cambios en la App o en la legislación.
+      Publicaremos la versión actualizada en esta misma página, indicando la fecha de la última revisión.
+    </p>
+
+    <div class="contact">
+      <strong>Contacto</strong><br />
+      ¿Dudas sobre tu privacidad? Escríbenos a
+      <a href="mailto:pascualibarra47@gmail.com">pascualibarra47@gmail.com</a>.
+    </div>
+  </div>
+
+  <footer>
+    MeLaJuego · <a href="terminos.html">Términos de Uso</a> · <a href="privacidad.html">Privacidad</a>
+  </footer>
+</body>
+</html>
